@@ -7,11 +7,12 @@
     justify-content: space-around;
     align-items: center;
     border: 5px solid #FA5252;
+    border-top: 0;
 }
 
 .body-about {
     height: 250px;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 
 .body-about:nth-child(1) {

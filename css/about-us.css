@@ -6,8 +6,6 @@
     flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
-    border: 5px solid #FA5252;
-    border-top: 0;
 }
 
 .body-about {

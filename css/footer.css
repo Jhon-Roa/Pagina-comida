@@ -5,7 +5,7 @@
     height: 350px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #contact div {
@@ -38,7 +38,6 @@ footer {
     justify-content: space-around;
     width: calc(100vw-10px);
     min-height: 200px;
-    position: relative;
     margin: 0 30px;
 }
 

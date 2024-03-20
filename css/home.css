@@ -38,7 +38,6 @@ body {
 #home nav #derecha-nav {
     width: 40%;
     max-width: 500px;
-    position: relative;
 }
 
 #home #derecha-nav-pc {
@@ -51,6 +50,47 @@ body {
 
 #home #derecha-nav-pc a {
     color: white;
+}
+
+#home #derecha-nav-cel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#home #derecha-nav-cel label {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+
+#home #menu-desplegable {
+    display: flex;
+    width: 100vw;
+    height: 0px;
+    overflow: hidden;
+    background-color: #2C2B47;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: height 0.5s;
+    z-index: 2;
+}
+
+#home #menu-desplegable a {
+    font-size: 25px;
+    color: white;
+}
+
+#menu-hamburguesa:checked + label + #menu-desplegable {
+    height: 300px;
+}
+
+#home #derecha-nav-cel i {
+    font-size: 3rem;
 }
 
 #body-home {
@@ -116,6 +156,9 @@ body {
 
     #body-home section:nth-child(2) {
         height: 250px;
+    }
+    #home #menu-hamburguesa {
+        display: none;
     }
 }
 

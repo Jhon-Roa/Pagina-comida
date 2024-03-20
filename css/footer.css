@@ -45,6 +45,7 @@ footer hr {
     position: absolute;
     top: 40px;
     width: 50px;
+    z-index: -1;
     border-color: #FF702A;
 }
 
@@ -77,9 +78,18 @@ footer div:nth-child(4) #contact-images{
 }
 
 footer div:nth-child(4) #contact-images i{
-    font-size: 20px;
+    font-size: 30px;
     color: #FF702A;
     margin-right: 3px;
+}
+
+@media screen and (min-width: 750px) {
+    footer {
+        position: relative;
+    }    
+    footer div:nth-child(1) {
+        padding-left: 3%;
+    } 
 }
 
 @media screen and (max-width: 750px) {
@@ -109,7 +119,6 @@ footer div:nth-child(4) #contact-images i{
     footer div:nth-child(4) #contact-images {
         justify-content: center;
         margin-left: 10px;
-        padding-right: 30px;
         margin-bottom: 20px;
     }    
     footer hr {

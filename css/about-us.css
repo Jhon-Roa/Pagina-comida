@@ -70,3 +70,18 @@
         flex-direction: column-reverse;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .body-about:nth-child(2) div:nth-child(1) {
+        font-size: 30px;
+    }
+    .body-about:nth-child(2) div:nth-child(2) {
+        font-size: 60px;
+    }
+    
+    .body-about:nth-child(2) div:nth-child(3) {
+        font-size: 20px;
+        color: white;
+    }
+    
+}

@@ -3,7 +3,6 @@
     min-height: 550px;
     height: auto;
     display: flex;
-    flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
 }
@@ -17,10 +16,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 30vw;
+    max-height: 491px;
 }
 
 .body-about:nth-child(1) img {
-    max-height: 250px;
+    height: 100%;
 }
 
 .body-about:nth-child(2) {
@@ -61,5 +62,11 @@
 @media screen and (max-width: 750px) {
     .body-about:nth-child(2) {
         text-align: center;
+    }
+    .body-about:nth-child(1) {
+        min-height: 250px;
+    }
+    #about-us {
+        flex-direction: column-reverse;
     }
 }

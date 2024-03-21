@@ -1,16 +1,23 @@
 /*primera parte (learn more)*/
 
+#height-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100vh;
+}
+
 #contact {
+    flex-grow: 1;
     width: calc(100vw-10px);
-    height: 350px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 #contact div {
-    height: 75%;
     width: 75%;
+    min-height: 30vh;
     background-image: url(../images/fondo-learn-more.png);
     background-size: cover;
     text-align: center;

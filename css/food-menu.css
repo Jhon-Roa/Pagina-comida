@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    min-height: 550px;
+    justify-content: center;
+    min-height: 100vh;
     width: calc(100vw-10px);
     padding-bottom: 30px;
 }
@@ -99,5 +99,26 @@
     #food-menu div:nth-child(2) div {
         width: 80vw;
         max-width: 350px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #food-menu div:nth-child(1) div {
+        font-size: 20px;
+    }
+    
+    #food-menu div:nth-child(1) h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #food-menu div:nth-child(1) div {
+        font-size: 30px;
+    }
+    
+    #food-menu div:nth-child(1) h1 {
+        font-size: 50px;
+        color: white;
     }
 }

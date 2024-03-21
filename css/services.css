@@ -1,9 +1,9 @@
 #services {
     width: calc(100vw-10px);
-    min-height: 550px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -58,4 +58,24 @@
         width: 80vw;
         max-width: 350px;
     }
+}
+
+@media screen and (min-width: 750px) {
+    #services h4 {
+        font-size: 20px;
+    } 
+    
+    #services h1 {
+        font-size: 40px;
+    } 
+}
+
+@media screen and (min-width: 1200px) {
+    #services h4 {
+        font-size: 30px;
+    } 
+    
+    #services h1 {
+        font-size: 50px;
+    } 
 }

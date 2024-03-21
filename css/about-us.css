@@ -1,7 +1,7 @@
 #about-us {
     width: calc(100vw-10px);
     min-height: 550px;
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -68,6 +68,8 @@
     }
     #about-us {
         flex-direction: column-reverse;
+        justify-content: center;
+        max-height: 550px;
     }
 }
 
